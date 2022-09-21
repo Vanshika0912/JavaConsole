@@ -1,0 +1,29 @@
+my index page
+vansh@LAPTOP-OULVLGAP MINGW64 ~/OneDrive/Desktop/my1stGitRepo (master)
+$ git config --global user.name "Vanshu"
+
+vansh@LAPTOP-OULVLGAP MINGW64 ~/OneDrive/Desktop/my1stGitRepo (master)
+$ git config --global user.email "v.g"
+
+
+
+
+
+git status
+
+git init //making that directory a repository
+
+git add --a //adding all files into staging, now all files are trackable
+
+git commit -m "commiting with meassage"
+
+git log //get history of changes
+
+
+
+
+git add specificfile.txt  //adding a specific file to staging
+ 
+rm -rf .git //delete repositiry
+
+git clone abcurl.com // cloning repositiry
