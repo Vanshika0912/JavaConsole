@@ -36,3 +36,32 @@ git diff  // will compare working directory to stagged directories
 
 git diff --staged // will compare commit directory to stagged directories
 
+git commit -a -m "Direct commit" // commit directly the changes without stagging. However, newly created files can't commit directly. New files need to be staged first and then commit.
+
+git rm utility.txt // delete file
+
+git mv index.txt index_renamed.txt //renamed file
+
+rm --cached filename // untrack file which was tracked earlier (gitignore unable to ignore previously tacked files so use this rm command)
+
+
+git log -p //will show the changes along with who did it (logs + difference)
+
+git log -p -3//will show the 3 changes along with who did it (logs + difference + specified quantity)
+
+git log --pretty=oneline // will show logs in one line
+
+git log --pretty=full //will show full logs
+
+git log --since=2.days // will show 2 days logs 2.years, 2.months etc can be used
+
+git log --pretty=format:"%h -- %an" //will show log in specified format
+//see pretty-format documentation for more formats
+
+Author means who created the file
+Committer means who modified the file
+
+
+
+
+
