@@ -27,3 +27,8 @@ git add specificfile.txt  //adding a specific file to staging
 rm -rf .git //delete repositiry
 
 git clone abcurl.com // cloning repositiry
+ex:
+git clone https://github.com/tensorflow/tensorflow.git      //cloning tensorflow repository
+
+touch .gitignore  //will create a new file
+
