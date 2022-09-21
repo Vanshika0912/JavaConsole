@@ -1,1 +1,8 @@
-utility.txt
+error.log
+# will ignore error.log file
+*.log  
+# will ignore all log files
+dir/
+# will ignore all "dir" named folder
+/dir/
+# will ignore only outer "dir" named folder
