@@ -62,6 +62,11 @@ Author means who created the file
 Committer means who modified the file
 
 
+git restore --staged filename.txt //unstaging file
 
+git checkout -- filename.txt //All modifications will be gone and file will be same as previous committed file
 
+git checkout -f // will make working directory same as previously committed directly.
+
+---------------------------------------tutorial 13 code with harry ** Working with remote repositories** ------------------
 
